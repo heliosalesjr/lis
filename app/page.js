@@ -1,10 +1,9 @@
-import { DatePicker } from "antd";
+import HeroSection from "./components/Hero";
 
 export default function Home() {
   return (
     <>
-      <h1>Here we go!</h1>
-      <DatePicker />
+      <HeroSection />
     </>
   );
 }
