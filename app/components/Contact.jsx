@@ -62,21 +62,21 @@ export function Contact() {
                     {/* Segunda coluna com o formulário, sem alterações */}
                     <div className="flex flex-col justify-center items-center">
                         <form onSubmit={handleSubmit} className="space-y-6 w-full">
-                            <h2 className="text-3xl font-black mb-4 text-center text-slate-700">Fale conosco</h2>
+                            <h2 className="text-3xl font-black mb-4 text-center text-slate-700">Let's connect!</h2>
                             <div className='input-box'>
-                                <label className="block mb-1">Nome</label>
-                                <input type="text" className="field w-full p-2 border rounded-md" placeholder="Seu nome" name="name" required />
+                                <label className="block mb-1">Name</label>
+                                <input type="text" className="field w-full p-2 border rounded-md" placeholder="Your name" name="name" required />
                             </div>
                             <div className='input-box'>
                                 <label className="block mb-1">E-mail</label>
-                                <input type="email" className="field w-full p-2 border rounded-md" placeholder="Seu e-mail" name="email" required />
+                                <input type="email" className="field w-full p-2 border rounded-md" placeholder="Your e-mail" name="email" required />
                             </div>
 
                             <div className='input-box'>
-                                <label className="block mb-1">Mensagem</label>
-                                <textarea name='message' className="field w-full p-2 border rounded-md" placeholder="Escreva sua mensagem" required></textarea>
+                                <label className="block mb-1">Message</label>
+                                <textarea name='message' className="field w-full p-2 border rounded-md" placeholder="Type your message here" required></textarea>
                             </div>
-                            <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md w-full">Enviar</button>
+                            <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md w-full">Send</button>
 
                             {result && <p className="text-red-500 text-center">{result}</p>}
                         </form>
