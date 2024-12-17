@@ -11,8 +11,8 @@ const HeroSection2 = () => {
       <Image
         src="/img/group.jpg"
         alt="Latinos celebrating success"
-        layout="fill"
-        objectFit="cover"
+        fill
+        style={{ objectFit: 'cover' }}
         className="absolute z-0"
       />
 
