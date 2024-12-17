@@ -2,7 +2,7 @@
 import Contact from "./components/Contact";
 import HeroSection from "./components/Hero";
 import HeroSection2 from "./components/Hero2";
-
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <HeroSection />
         <HeroSection2 />
         <Contact />
-    
+        <Footer />
       
     </>
   );
